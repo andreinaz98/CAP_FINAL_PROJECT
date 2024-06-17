@@ -1,0 +1,20 @@
+{
+  "name": "CAP_Final_Project",
+  "version": "1.0.0",
+  "description": "SAP CAP Final Project.",
+  "repository": "https://github.com/andreinaz98/CAP_FINAL_PROJECT.git",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7.9.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/eslint-plugin-cds": "^3",
+    "eslint": "^9"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  }
+}
